@@ -1,0 +1,74 @@
+---
+title: Star Novel
+description: 多言語AI翻訳で世界中の読者に届くグローバルライトノベルプラットフォーム
+template: splash
+hero:
+  tagline: 一筆で、世界へ。面白い作品に、言語の壁はいらない。
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: プロダクト概要
+      link: /product/
+      icon: right-arrow
+    - text: 機能仕様
+      link: /specs/
+      icon: document
+      variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## Star Novel とは
+
+**Star Novel** は、多言語AI翻訳を特徴とするグローバルライトノベルプラットフォームです。
+
+> **ミッション:** 面白い作品を、言語に関係なく、世界中の読者に届ける
+
+---
+
+## コアバリュー
+
+<CardGrid stagger>
+  <Card title="Write Once, Read Anywhere" icon="pencil">
+    母国語で書くだけで、世界中の読者に届く。翻訳作業ゼロ、投稿と同時に多言語公開。
+  </Card>
+  <Card title="AI自動翻訳" icon="translate">
+    ラノベに最適化されたAI翻訳。用語集機能で固有名詞も正確に翻訳。
+  </Card>
+  <Card title="グローバル収益" icon="star">
+    海外読者からの投げ銭・サブスク収益。国内市場の10倍以上の潜在読者。
+  </Card>
+  <Card title="ラノベ特化" icon="open-book">
+    異世界、ファンタジー、恋愛など。日本のライトノベル文化に最適化。
+  </Card>
+</CardGrid>
+
+---
+
+## 技術スタック
+
+| カテゴリ | 技術 |
+|---------|------|
+| フロントエンド | Cloudflare Pages, React, TypeScript |
+| バックエンド | Cloudflare Workers, Hono |
+| データベース | Cloudflare D1 (SQLite), Drizzle ORM |
+| ストレージ | Cloudflare R2, KV |
+| 認証 | Lucia Auth |
+| エディタ | Tiptap (WYSIWYG) |
+
+---
+
+## ドキュメント構成
+
+<CardGrid>
+  <Card title="Product" icon="rocket">
+    **Why we build** - ビジョン、ユーザー、ロードマップ
+
+    [Product →](/product/)
+  </Card>
+  <Card title="Specs" icon="list-format">
+    **What to build** - 機能仕様、用語集
+
+    [Specs →](/specs/)
+  </Card>
+</CardGrid>

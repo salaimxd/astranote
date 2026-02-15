@@ -1,0 +1,57 @@
+---
+title: Astranote
+description: 世界進出を目指す日本のWeb小説作家向けのグローバル投稿プラットフォーム、Astranoteの公式ドキュメント
+template: splash
+hero:
+  tagline: 日本のライトノベルを、世界中の読者へ。
+  actions:
+    - text: プロダクトビジョン
+      link: /01-product/
+      icon: right-arrow
+      variant: primary
+    - text: 機能仕様
+      link: /02-specs/
+      icon: list-format
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Astranote とは
+
+**Astranote (アストラノート)** は、**「面白い作品に、言語の壁はいらない」** をコンセプトにした、次世代のグローバルWeb小説プラットフォームです。
+
+日本の作家が日本語で投稿するだけで、高品質なAI翻訳によって瞬時に世界中の言語で公開され、海外の読者から直接評価と収益を得られるエコシステムを提供します。
+
+<CardGrid stagger>
+	<Card title="Global Reach" icon="earth">
+		**多言語同時配信**: 投稿と同時に英語・中国語など多言語へ自動翻訳。世界50億人の読者へリーチします。
+	</Card>
+	<Card title="AI Translation" icon="translate">
+		**高品質AI翻訳**: 文脈を理解し、ラノベ特有のニュアンスも正確に翻訳する専用エンジンを搭載。
+	</Card>
+	<Card title="Creator Economy" icon="rocket">
+		**公正な収益還元**: 海外読者からの投げ銭、サブスクリプション収益を作家に最大限還元します。
+	</Card>
+	<Card title="Data Driven" icon="seti:chart">
+		**グローバル分析**: どの国で、どの層にウケているか。詳細なダッシュボードでファン層を可視化します。
+	</Card>
+</CardGrid>
+
+## ドキュメント構成
+
+このドキュメントサイトでは、Astranoteの開発・運用に必要な全ての情報を集約しています。
+
+<CardGrid>
+  <Card title="Product" icon="star">
+    [プロダクト定義](/01-product/) - ビジョン、マーケット分析、カスタマージャーニー
+  </Card>
+  <Card title="Specs" icon="document">
+    [機能仕様](/02-specs/) - 画面一覧、機能詳細、用語集
+  </Card>
+  <Card title="System" icon="setting">
+    [技術仕様](/03-system/) - アーキテクチャ、API設計、インフラ
+  </Card>
+  <Card title="Development" icon="pencil">
+    [開発ガイド](/04-development/) - 開発標準、テスト戦略
+  </Card>
+</CardGrid>

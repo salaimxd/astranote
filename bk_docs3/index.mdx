@@ -1,0 +1,164 @@
+---
+title: Starlight ドキュメントテンプレート
+description: Astro Starlight を使用したドキュメントサイトのテンプレート
+template: splash
+hero:
+  tagline: Docs-as-Code と仕様駆動開発のためのドキュメントテンプレート
+  actions:
+    - text: プロダクトを知る
+      link: /01-product/
+      icon: right-arrow
+    - text: 機能仕様を見る
+      link: /02-specs/
+      icon: document
+      variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+## プロジェクト概要
+
+このテンプレートは、[Astro Starlight](https://starlight.astro.build/) を使用したプロジェクトドキュメントサイトの基本構成を提供します。
+
+**Docs-as-Code** と **仕様駆動開発（Specification-Driven Development）** を実践するためのベースとして利用できます。
+
+<CardGrid>
+  <Card title="Docs-as-Code" icon="document">
+    ドキュメントをコードとして管理し、バージョン管理システムで開発と同期
+  </Card>
+  <Card title="仕様駆動開発" icon="pencil">
+    仕様ファーストで開発を進め、ドキュメントを Single Source of Truth として維持
+  </Card>
+  <Card title="日本語対応" icon="translate">
+    デフォルトで日本語ロケールを設定済み
+  </Card>
+  <Card title="構造化されたドキュメント" icon="setting">
+    Product / Specs / System / Development の4セクション構成
+  </Card>
+</CardGrid>
+
+## ドキュメント構成
+
+このテンプレートは、実際のプロジェクト開発で使用される4つの主要セクションで構成されています。
+
+<CardGrid>
+  <Card title="Product" icon="star">
+    [プロダクト定義](/01-product/) - ビジョン、ターゲットユーザー、ロードマップ
+  </Card>
+  <Card title="Specs" icon="document">
+    [機能仕様](/02-specs/) - 画面一覧、機能定義、用語集
+  </Card>
+  <Card title="System" icon="setting">
+    [技術仕様](/03-system/) - アーキテクチャ、API設計、インフラ
+  </Card>
+  <Card title="Development" icon="pencil">
+    [開発ガイド](/04-development/) - 環境構築、ブランチ戦略、テスト
+  </Card>
+</CardGrid>
+
+### Reference
+
+自動生成されたAPIリファレンスやコードドキュメントを格納します。
+
+---
+
+## テンプレートの使い方
+
+### 1. プロジェクト情報のカスタマイズ
+
+以下のファイルを編集して、プロジェクト固有の情報に置き換えてください：
+
+- [astro.config.mjs](docs/astro.config.mjs) - サイトタイトル、ソーシャルリンク
+- [index.mdx](docs/src/content/docs/index.mdx) - トップページのコンテンツ
+- [CLAUDE.md](CLAUDE.md) - AIアシスタントへの指示（オプション）
+
+### 2. 各セクションの編集
+
+各ディレクトリには、テンプレートとなるサンプルファイルが含まれています。
+プロジェクトに合わせて内容を書き換えてください。
+
+#### Product セクション
+
+- `vision.md` - ビジョンとブランド戦略
+- `users.md` - ターゲットユーザーとペルソナ
+- `roadmap.md` - リリース計画
+
+#### Specs セクション
+
+- `features.md` - 機能一覧と詳細仕様
+- `screens.md` - 画面遷移図
+- `glossary.md` - 用語集
+
+#### System セクション
+
+- `frontend.md` - フロントエンド設計
+- `backend.md` - バックエンド設計
+- `api.md` - API仕様
+- `auth.md` - 認証・認可
+- `infra.md` - インフラ構成
+- `security.md` - セキュリティ要件
+
+#### Development セクション
+
+- `branch-strategy.md` - ブランチ戦略
+- `progress.md` - 開発進捗管理
+- `testing.md` - テスト戦略
+
+### 3. 不要なファイルの削除
+
+プロジェクトに不要なファイルやセクションは削除してください。
+
+---
+
+## 開発
+
+### ローカルでの起動
+
+```bash
+cd docs
+pnpm install
+pnpm dev
+```
+
+ブラウザで `http://localhost:4321` にアクセス
+
+### Docker での起動
+
+```bash
+cd docs
+docker compose up
+```
+
+環境変数でプロジェクト名とポートをカスタマイズできます。詳細は [README.md](docs/README.md) を参照してください。
+
+---
+
+## カスタマイズのヒント
+
+### サイドバーの調整
+
+[astro.config.mjs](docs/astro.config.mjs) の `sidebar` 設定を編集：
+
+```javascript
+sidebar: [
+  {
+    label: "Product",
+    autogenerate: { directory: "product" },
+  },
+  // 必要に応じて追加・削除・並び替え
+],
+```
+
+### ドキュメント構造の変更
+
+- 新しいディレクトリを追加したら、`astro.config.mjs` のサイドバーに追加
+- `autogenerate` を使用すると、ディレクトリ内のファイルが自動でサイドバーに追加されます
+
+---
+
+## 参考リンク
+
+- [Starlight ドキュメント](https://starlight.astro.build/)
+- [Astro ドキュメント](https://docs.astro.build)
+- [Docs-as-Code とは](https://www.writethedocs.org/guide/docs-as-code/)
+- [Specification-Driven Development](https://en.wikipedia.org/wiki/Specification-driven_development)
