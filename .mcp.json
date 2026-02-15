@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "astro-docs": {
+      "type": "http",
+      "url": "https://mcp.docs.astro.build/mcp"
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "env": {}
+    },
+    "app-insight-mcp": {
+      "command": "npx",
+      "args": ["-y", "@jeromyfu/app-insight-mcp"]
+    },
+    "frontmatter": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--from", "frontmatter-mcp[semantic]", "frontmatter-mcp"],
+      "env": {
+        "FRONTMATTER_BASE_DIR": "./docs/docs",
+        "FRONTMATTER_ENABLE_SEMANTIC": "true",
+        "MCP_TIMEOUT": "300000"
+      }
+    }
+  }
+}

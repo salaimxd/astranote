@@ -1,0 +1,3 @@
+[submodule "docs/_template"]
+	path = docs/_template
+	url = https://github.com/salaimxd/product-framework.git
