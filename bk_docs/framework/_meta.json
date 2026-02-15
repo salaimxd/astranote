@@ -1,0 +1,31 @@
+[
+  "index",
+  {
+    "type": "dir",
+    "name": "discovery",
+    "label": "Discovery（発見）",
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
+    "type": "dir",
+    "name": "validation",
+    "label": "Validation（検証）",
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
+    "type": "dir",
+    "name": "refinement",
+    "label": "Refinement（深化）",
+    "collapsible": true,
+    "collapsed": false
+  },
+  {
+    "type": "dir",
+    "name": "scalability",
+    "label": "Scalability（拡大）",
+    "collapsible": true,
+    "collapsed": false
+  }
+]
