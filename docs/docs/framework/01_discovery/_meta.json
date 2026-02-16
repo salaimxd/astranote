@@ -1,0 +1,21 @@
+[
+  "index",
+  "user_research",
+  "competitive_analysis",
+  {
+    "type": "dir",
+    "name": "persona",
+    "label": "ペルソナ（Persona）",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "empathy_map",
+    "label": "共感マップ（Empathy Map）",
+    "collapsible": true,
+    "collapsed": true
+  },
+  "journey_map",
+  "hmw"
+]
