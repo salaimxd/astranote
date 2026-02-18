@@ -1,0 +1,5 @@
+/* テーブルセルの自動改行を防止（意図的な <br> のみ改行） */
+table th,
+table td {
+  white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+[
+  "index",
+  {
+    "type": "dir",
+    "name": "01_discovery",
+    "label": "01. 発見（Discovery）",
+    "collapsible": true,
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "02_validation",
+    "label": "02. 検証（Validation）",
+    "collapsible": true,
+    "collapsed": true
+  }
+]

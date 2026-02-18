@@ -3,6 +3,7 @@ import { defineConfig } from "@rspress/core";
 
 export default defineConfig({
     root: path.join(__dirname, "docs"),
+    globalStyles: path.join(__dirname, "styles/index.css"),
     title: "My Site",
     icon: "/rspress-icon.png",
     logo: {
