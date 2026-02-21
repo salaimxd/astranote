@@ -305,7 +305,6 @@ relatedDocs:
 - [競合分析](../competitive_analysis.md) - 競合ユーザーの理解
 - [HMW（How Might We）](../hmw.md) - PainからHMW質問を生成する次のステップ
 - [ジャーニーマップ](../journey_map.md)
-- [ストーリーマッピング](../../03_refinement/story_mapping.md)
 
 **この共感マップの根拠となったリサーチ:**
 

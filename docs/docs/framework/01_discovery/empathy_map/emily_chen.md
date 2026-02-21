@@ -318,7 +318,6 @@ relatedDocs:
 - [HMW（How Might We）](../hmw.md) - PainからHMW質問を生成する次のステップ
 - [共感マップ: 山田太郎](./yamada_taro.md) - プライマリペルソナの共感マップ
 - [ジャーニーマップ](../journey_map.md)
-- [ストーリーマッピング](../../03_refinement/story_mapping.md)
 
 **この共感マップの根拠となったリサーチ:**
 

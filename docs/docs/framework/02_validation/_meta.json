@@ -1,1 +1,1 @@
-["index", "lean_canvas", "mvp"]
+["index", { "type": "dir", "name": "lean_canvas", "label": "リーンキャンバス", "collapsible": true, "collapsed": true }, { "type": "dir", "name": "mvp", "label": "MVP開発ドキュメント", "collapsible": true, "collapsed": true }]

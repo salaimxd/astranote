@@ -328,7 +328,6 @@ relatedDocs:
 - [共感マップ: 山田太郎](./yamada_taro.md) - プライマリペルソナの共感マップ
 - [共感マップ: Emily Chen](./emily_chen.md) - セカンダリペルソナ（海外読者）の共感マップ
 - [ジャーニーマップ](../journey_map.md)
-- [ストーリーマッピング](../../03_refinement/story_mapping.md)
 
 **この共感マップの根拠となったリサーチ:**
 

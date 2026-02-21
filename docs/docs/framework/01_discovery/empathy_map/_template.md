@@ -237,7 +237,6 @@ relatedDocs:
 - [ペルソナ](../persona/index.md) - 共感マップの対象となるペルソナ
 - [HMW（How Might We）](../hmw.md) - 次のステップ
 - [ジャーニーマップ](../journey_map.md)
-- [ストーリーマッピング](../../03_refinement/story_mapping.md)
 
 **この共感マップの根拠となったリサーチ:**
 

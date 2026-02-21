@@ -2430,7 +2430,6 @@ Webnovelでは作家がPatreonに流出、カクヨムは執筆不可、Wattpad�
 - [ ] [ユーザーリサーチ](./user_research.md)でのSNS分析・コミュニティ観察の実施
 - [ ] [ペルソナ](./persona/index.md)の精緻化
 - [ ] [HMW](./hmw.md)の作成 - 競合の弱点を機会に転換
-- [ ] [価値提案](../04_strategy/value_proposition.md)の策定 - 差別化ポイントを価値提案に
 
 **定期的な見直し:**
 
@@ -2447,7 +2446,6 @@ Webnovelでは作家がPatreonに流出、カクヨムは執筆不可、Wattpad�
 - [ユーザーリサーチ](./user_research.md) - ユーザー視点での調査（アプリストアレビュー分析の詳細）
 - [ペルソナ](./persona/index.md)
 - [リーンキャンバス](../02_validation/lean_canvas.md) - 競合優位性の欄に反映
-- [価値提案](../04_strategy/value_proposition.md) - 差別化ポイントを価値提案に反映
 
 **使用したツール:**
 

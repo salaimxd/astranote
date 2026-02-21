@@ -84,6 +84,7 @@ relatedDocs:
 ## 参考情報
 
 **関連ドキュメント:**
+
 - [Discovery概要](../index.md)
 - [ユーザーリサーチ](../user_research.md) - ペルソナ作成の根拠となるデータを収集
 - [競合分析](../competitive_analysis.md) - 競合ユーザーの理解
